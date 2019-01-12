@@ -3,10 +3,10 @@
 namespace yii2module\article\domain\services;
 
 use yii2lab\domain\data\Query;
-use yii2lab\domain\services\ActiveBaseService;
+use yii2lab\domain\services\base\BaseActiveService;
 use yii2module\article\domain\enums\ArticlePermissionEnum;
 
-class ArticleService extends ActiveBaseService {
+class ArticleService extends BaseActiveService {
 
 	public function access() {
 		return [
