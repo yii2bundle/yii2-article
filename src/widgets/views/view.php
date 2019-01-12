@@ -1,6 +1,6 @@
 <?php
 
-use yii2module\markdown\widgets\Markdown;
+use yii2lab\extension\markdown\widgets\Markdown;
 
 /**
  * @var $contentOnly boolean
