@@ -3,10 +3,10 @@
 namespace yii2module\article\domain\repositories\disc;
 
 use yii2lab\domain\data\Query;
-use yii2lab\domain\repositories\ActiveDiscRepository;
 use yii2lab\domain\BaseEntity;
+use yii2lab\extension\arrayTools\repositories\base\BaseActiveDiscRepository;
 
-class ArticleRepository extends ActiveDiscRepository {
+class ArticleRepository extends BaseActiveDiscRepository {
 	
 	public $table = 'article';
 	
