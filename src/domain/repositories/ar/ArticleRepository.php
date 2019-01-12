@@ -4,9 +4,9 @@ namespace yii2module\article\domain\repositories\ar;
 
 use yii2lab\domain\enums\RelationEnum;
 use yii2lab\domain\BaseEntity;
-use yii2lab\domain\repositories\ActiveArRepository;
+use yii2lab\extension\activeRecord\repositories\base\BaseActiveArRepository;
 
-class ArticleRepository extends ActiveArRepository {
+class ArticleRepository extends BaseActiveArRepository {
 	
 	public function tableName()
 	{

@@ -3,9 +3,9 @@
 namespace yii2module\article\domain\repositories\ar;
 
 use yii2lab\domain\enums\RelationEnum;
-use yii2lab\domain\repositories\ActiveArRepository;
+use yii2lab\extension\activeRecord\repositories\base\BaseActiveArRepository;
 
-class CategoriesRepository extends ActiveArRepository {
+class CategoriesRepository extends BaseActiveArRepository {
 
 	public function relations() {
 		return [

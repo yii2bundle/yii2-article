@@ -3,10 +3,10 @@
 namespace yii2module\article\domain\repositories\filedb;
 
 use yii2lab\domain\data\Query;
-use yii2lab\domain\repositories\ActiveFileDbRepository;
 use yii2lab\domain\BaseEntity;
+use yii2lab\extension\filedb\repositories\base\BaseActiveFiledbRepository;
 
-class ArticleRepository extends ActiveFileDbRepository {
+class ArticleRepository extends BaseActiveFiledbRepository {
 	
 	public function tableName()
 	{
