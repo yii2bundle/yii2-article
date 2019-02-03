@@ -2,7 +2,7 @@
 
 namespace yii2module\article\domain\repositories\ar;
 
-use yii2lab\extension\activeRecord\repositories\base\BaseActiveArRepository;
+use yii2rails\extension\activeRecord\repositories\base\BaseActiveArRepository;
 
 class CategoryRepository extends BaseActiveArRepository {
 

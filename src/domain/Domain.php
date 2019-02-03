@@ -2,7 +2,7 @@
 
 namespace yii2module\article\domain;
 
-use yii2lab\domain\enums\Driver;
+use yii2rails\domain\enums\Driver;
 
 /**
  * Class Domain
@@ -11,7 +11,7 @@ use yii2lab\domain\enums\Driver;
  *
  * @property \yii2module\article\domain\services\ArticleService $article
  */
-class Domain extends \yii2lab\domain\Domain {
+class Domain extends \yii2rails\domain\Domain {
 	
 	public function config() {
 		$driver = Driver::slave() == Driver::FILEDB ? Driver::FILEDB : Driver::ACTIVE_RECORD;

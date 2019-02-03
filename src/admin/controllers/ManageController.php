@@ -2,7 +2,7 @@
 
 namespace yii2module\article\admin\controllers;
 
-use yii2lab\domain\web\ActiveController as Controller;
+use yii2rails\domain\web\ActiveController as Controller;
 
 class ManageController extends Controller {
 

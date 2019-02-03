@@ -2,9 +2,9 @@
 
 namespace yii2module\article\domain\repositories\ar;
 
-use yii2lab\domain\enums\RelationEnum;
-use yii2lab\domain\BaseEntity;
-use yii2lab\extension\activeRecord\repositories\base\BaseActiveArRepository;
+use yii2rails\domain\enums\RelationEnum;
+use yii2rails\domain\BaseEntity;
+use yii2rails\extension\activeRecord\repositories\base\BaseActiveArRepository;
 
 class ArticleRepository extends BaseActiveArRepository {
 	

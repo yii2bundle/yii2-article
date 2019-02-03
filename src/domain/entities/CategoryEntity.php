@@ -2,7 +2,7 @@
 
 namespace yii2module\article\domain\entities;
 
-use yii2lab\domain\BaseEntity;
+use yii2rails\domain\BaseEntity;
 
 class CategoryEntity extends BaseEntity {
 	

@@ -4,7 +4,7 @@ namespace yii2module\article\admin\forms;
 
 use Yii;
 use yii2module\article\domain\entities\ArticleEntity;
-use yii2lab\domain\base\Model;
+use yii2rails\domain\base\Model;
 
 class PostForm extends Model
 {

@@ -2,9 +2,9 @@
 
 namespace yii2module\article\domain\repositories\filedb;
 
-use yii2lab\domain\data\Query;
-use yii2lab\domain\BaseEntity;
-use yii2lab\extension\filedb\repositories\base\BaseActiveFiledbRepository;
+use yii2rails\domain\data\Query;
+use yii2rails\domain\BaseEntity;
+use yii2rails\extension\filedb\repositories\base\BaseActiveFiledbRepository;
 
 class ArticleRepository extends BaseActiveFiledbRepository {
 	
