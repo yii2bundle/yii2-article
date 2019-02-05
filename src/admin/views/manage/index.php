@@ -6,10 +6,11 @@ use yii\grid\GridView;
 use yii\helpers\Html;
 use yii2rails\extension\web\grid\ActionColumn;
 use yii2rails\extension\web\grid\TitleColumn;
+use yii2rails\extension\web\helpers\ControllerHelper;
 
 $this->title = Yii::t('article/main', 'list');
 
-$baseUrl = $this->context->getBaseUrl();
+$baseUrl = ControllerHelper::getUrl();
 
 $columns = [
 	[
