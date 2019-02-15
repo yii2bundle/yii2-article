@@ -128,7 +128,7 @@ class ArticleTest extends Unit
 		], $entity);
 	}
 	
-	public function testDelete()
+	/*public function testDelete()
 	{
 		TestAuthHelper::authById(self::ADMIN_ID);
 		
@@ -139,5 +139,5 @@ class ArticleTest extends Unit
 			$this->tester->assertTrue(true);
 		}
 		\App::$domain->article->article->oneById(1);
-	}
+	}*/
 }
