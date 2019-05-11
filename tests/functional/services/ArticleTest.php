@@ -16,7 +16,7 @@ use yii2module\account\domain\v3\helpers\TestAuthHelper;
 class ArticleTest extends Unit
 {
 	
-	const ADMIN_ID = 381949;
+	const ADMIN_ID = 1;
 	
 	public function _before()
     {
