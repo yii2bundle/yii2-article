@@ -11,6 +11,7 @@ use yii2rails\domain\enums\Driver;
  * @property \yii2bundle\article\domain\services\ArticleService $article
  * @property-read \yii2bundle\article\domain\interfaces\services\CategoryInterface $category
  * @property-read \yii2bundle\article\domain\interfaces\repositories\RepositoriesInterface $repositories
+ * @property-read \yii2bundle\article\domain\interfaces\services\PostInterface $post
  */
 class Domain extends \yii2rails\domain\Domain {
 	
@@ -18,12 +19,12 @@ class Domain extends \yii2rails\domain\Domain {
 		$driver = Driver::slave() == Driver::FILEDB ? Driver::FILEDB : Driver::ACTIVE_RECORD;
 		return [
 			'repositories' => [
-				'article' => $driver,
+				'post' => $driver,
 				'category' => $driver,
 				'categories' => $driver,
 			],
 			'services' => [
-				'article',
+				'post',
                 'category',
 			],
 		];
