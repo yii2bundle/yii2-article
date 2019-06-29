@@ -7,7 +7,7 @@ use yii2lab\db\domain\db\MigrationCreateTable as Migration;
 */
 class m180118_100408_create_article_category_table extends Migration
 {
-	public $table = '{{%article_category}}';
+	public $table = 'article_category';
 
 	/**
 	 * @inheritdoc

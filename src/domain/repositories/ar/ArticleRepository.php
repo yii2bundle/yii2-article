@@ -10,7 +10,7 @@ class ArticleRepository extends BaseActiveArRepository {
 	
 	public function tableName()
 	{
-		return 'article';
+		return 'article_post';
 	}
 	
 	public function uniqueFields() {

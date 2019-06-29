@@ -7,7 +7,7 @@ use yii2lab\db\domain\db\MigrationCreateTable as Migration;
 */
 class m180118_100608_create_article_categories_table extends Migration
 {
-	public $table = '{{%article_categories}}';
+	public $table = 'article_category_tie';
 
 	/**
 	 * @inheritdoc
@@ -26,14 +26,14 @@ class m180118_100608_create_article_categories_table extends Migration
 		$this->myCreateIndexUnique(['article_id', 'category_id']);
 		$this->myAddForeignKey(
 			'article_id',
-			'{{%article}}',
+			'article_post',
 			'id',
 			'CASCADE',
 			'CASCADE'
 		);
 		$this->myAddForeignKey(
 			'category_id',
-			'{{%article_category}}',
+			'article_category',
 			'id',
 			'CASCADE',
 			'CASCADE'

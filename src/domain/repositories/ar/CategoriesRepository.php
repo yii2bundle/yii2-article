@@ -7,6 +7,11 @@ use yii2rails\extension\activeRecord\repositories\base\BaseActiveArRepository;
 
 class CategoriesRepository extends BaseActiveArRepository {
 
+    public function tableName()
+    {
+        return 'article_category_tie';
+    }
+
 	public function relations() {
 		return [
 			'article' => [
