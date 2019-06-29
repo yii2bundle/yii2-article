@@ -17,8 +17,8 @@ class m170830_120248_create_article_table extends Migration
 		return [
 			'id' => $this->primaryKey(),
 			'name' => $this->string(32),
-			'title' => $this->string(),
-			'content' => $this->text(),
+			'title' => $this->string()->notNull(),
+			'content' => $this->text()->notNull(),
 			'is_deleted' => $this->integer(1)->defaultValue(0),
 			'updated_at' => $this->timestamp()->defaultValue(null),
 			'created_at' => $this->timestamp()->defaultValue(null),

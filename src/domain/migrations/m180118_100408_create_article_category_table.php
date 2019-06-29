@@ -16,7 +16,7 @@ class m180118_100408_create_article_category_table extends Migration
 	{
 		return [
 			'id' => $this->primaryKey(),
-			'title' => $this->string(128),
+			'title' => $this->string(128)->notNull(),
 		];
 
 	}

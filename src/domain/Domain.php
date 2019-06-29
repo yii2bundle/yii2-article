@@ -6,10 +6,11 @@ use yii2rails\domain\enums\Driver;
 
 /**
  * Class Domain
- *
+ * 
  * @package yii2bundle\article\domain
- *
  * @property \yii2bundle\article\domain\services\ArticleService $article
+ * @property-read \yii2bundle\article\domain\interfaces\services\CategoryInterface $category
+ * @property-read \yii2bundle\article\domain\interfaces\repositories\RepositoriesInterface $repositories
  */
 class Domain extends \yii2rails\domain\Domain {
 	
@@ -23,6 +24,7 @@ class Domain extends \yii2rails\domain\Domain {
 			],
 			'services' => [
 				'article',
+                'category',
 			],
 		];
 	}
