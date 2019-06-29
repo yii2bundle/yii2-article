@@ -16,10 +16,9 @@ class m170830_120248_create_article_table extends Migration
 	{
 		return [
 			'id' => $this->primaryKey(),
-			'name' => $this->string(32),
 			'title' => $this->string()->notNull(),
 			'content' => $this->text()->notNull(),
-			'is_deleted' => $this->integer(1)->defaultValue(0),
+			'status' => $this->integer(1)->defaultValue(1),
 			'updated_at' => $this->timestamp()->defaultValue(null),
 			'created_at' => $this->timestamp()->defaultValue(null),
 		];
@@ -27,7 +26,7 @@ class m170830_120248_create_article_table extends Migration
 
 	public function afterCreate()
 	{
-		$this->myCreateIndexUnique(['name']);
+		$this->myCreateIndexUnique(['title']);
 	}
 
 }

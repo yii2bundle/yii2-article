@@ -17,6 +17,9 @@ class m180118_100408_create_article_category_table extends Migration
 		return [
 			'id' => $this->primaryKey(),
 			'title' => $this->string(128)->notNull(),
+            'status' => $this->integer(1)->defaultValue(1),
+            'updated_at' => $this->timestamp()->defaultValue(null),
+            'created_at' => $this->timestamp()->defaultValue(null),
 		];
 
 	}

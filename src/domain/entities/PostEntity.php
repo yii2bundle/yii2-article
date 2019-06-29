@@ -3,6 +3,8 @@
 namespace yii2bundle\article\domain\entities;
 
 use yii2rails\domain\BaseEntity;
+use yii2rails\domain\behaviors\entity\TimeValueFilter;
+use yii2rails\extension\common\enums\StatusEnum;
 
 /**
  * Class PostEntity
@@ -23,10 +25,28 @@ class PostEntity extends BaseEntity {
 	protected $id;
 	protected $title;
 	protected $content;
-	protected $status;
+	protected $status = StatusEnum::ENABLE;
 	protected $updated_at;
 	protected $created_at;
 
 	protected $categories;
+
+    public function behaviors()
+    {
+        return [
+            [
+                'class' => TimeValueFilter::class,
+            ],
+        ];
+    }
+
+    public function rules()
+    {
+        return [
+            [['title', 'content'], 'trim'],
+            [['title', 'content'], 'required'],
+            ['status', 'in', 'range' => StatusEnum::values()],
+        ];
+    }
 
 }
