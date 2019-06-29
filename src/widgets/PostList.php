@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\article\widgets;
+namespace yii2bundle\article\widgets;
 
 use Yii;
 use yii\base\Widget;

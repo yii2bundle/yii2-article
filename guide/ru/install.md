@@ -44,7 +44,7 @@ oArticlePostDelete
 return [
     'modules' => [
         // ...
-        'article' => 'yii2module\article\web\Module',
+        'article' => 'yii2bundle\article\web\Module',
         'components' => [
 			...
 			'urlManager' => [
@@ -75,7 +75,7 @@ return [
 	'modules' => [
 		// ...
 		'article' => [
-			'class' => 'yii2module\article\admin\Module',
+			'class' => 'yii2bundle\article\admin\Module',
 			'as access' => Config::genAccess(PermissionEnum::ARTICLE_POST_MANAGE),
 		],
 		// ...
@@ -89,7 +89,7 @@ return [
 return [
 	'modules' => [
 		// ...
-		'article' => 'yii2module\article\api\Module',
+		'article' => 'yii2bundle\article\api\Module',
 		// ...
 	],
 	'components' => [
@@ -110,7 +110,7 @@ return [
 return [
 	'components' => [
 		// ...
-		'article' => 'yii2module\article\domain\Domain',
+		'article' => 'yii2bundle\article\domain\Domain',
 		// ...
 	],
 ];

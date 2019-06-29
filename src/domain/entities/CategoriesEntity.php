@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\article\domain\entities;
+namespace yii2bundle\article\domain\entities;
 
 use yii2rails\domain\BaseEntity;
 

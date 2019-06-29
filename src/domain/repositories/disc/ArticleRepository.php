@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\article\domain\repositories\disc;
+namespace yii2bundle\article\domain\repositories\disc;
 
 use yii2rails\domain\data\Query;
 use yii2rails\domain\BaseEntity;

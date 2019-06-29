@@ -15,7 +15,7 @@ $config = [
             ],
         ],
     ],
-	'article' => 'yii2module\article\domain\Domain',
+	'article' => 'yii2bundle\article\domain\Domain',
 ];
 
 $baseConfig = TestHelper::loadConfig('common/config/domains.php');

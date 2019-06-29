@@ -7,10 +7,10 @@ use Yii;
 use yii\web\ForbiddenHttpException;
 use yii2rails\domain\BaseEntity;
 use yii2rails\domain\data\Query;
-use yii2module\article\domain\entities\ArticleEntity;
-use yii2module\article\domain\fixtures\ArticleCategoriesFixture;
-use yii2module\article\domain\fixtures\ArticleCategoryFixture;
-use yii2module\article\domain\fixtures\ArticleFixture;
+use yii2bundle\article\domain\entities\ArticleEntity;
+use yii2bundle\article\domain\fixtures\ArticleCategoriesFixture;
+use yii2bundle\article\domain\fixtures\ArticleCategoryFixture;
+use yii2bundle\article\domain\fixtures\ArticleFixture;
 use yii2module\account\domain\v3\helpers\TestAuthHelper;
 
 class ArticleTest extends Unit

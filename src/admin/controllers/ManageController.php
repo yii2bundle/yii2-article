@@ -1,13 +1,13 @@
 <?php
 
-namespace yii2module\article\admin\controllers;
+namespace yii2bundle\article\admin\controllers;
 
 use yii2rails\domain\web\ActiveController as Controller;
 
 class ManageController extends Controller {
 
 	public $serviceName = 'article.article';
-	public $formClass = 'yii2module\article\admin\forms\PostForm';
+	public $formClass = 'yii2bundle\article\admin\forms\PostForm';
 
 	public function actions() {
 		$actions = parent::actions();

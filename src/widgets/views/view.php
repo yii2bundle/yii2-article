@@ -5,7 +5,7 @@ use yii2rails\extension\markdown\widgets\Markdown;
 /**
  * @var $contentOnly boolean
  * @var $headerLevel integer
- * @var $article \yii2module\article\domain\entities\ArticleEntity
+ * @var $article \yii2bundle\article\domain\entities\ArticleEntity
  */
 
 if(!empty($article)) { ?>

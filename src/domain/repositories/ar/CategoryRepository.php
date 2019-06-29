@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\article\domain\repositories\ar;
+namespace yii2bundle\article\domain\repositories\ar;
 
 use yii2rails\extension\activeRecord\repositories\base\BaseActiveArRepository;
 

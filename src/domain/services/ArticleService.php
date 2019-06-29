@@ -1,10 +1,10 @@
 <?php
 
-namespace yii2module\article\domain\services;
+namespace yii2bundle\article\domain\services;
 
 use yii2rails\domain\data\Query;
 use yii2rails\domain\services\base\BaseActiveService;
-use yii2module\article\domain\enums\ArticlePermissionEnum;
+use yii2bundle\article\domain\enums\ArticlePermissionEnum;
 
 class ArticleService extends BaseActiveService {
 

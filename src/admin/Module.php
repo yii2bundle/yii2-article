@@ -1,10 +1,10 @@
 <?php
 
-namespace yii2module\article\admin;
+namespace yii2bundle\article\admin;
 
 use yii\base\Module as YiiModule;
 use yii2rails\extension\web\helpers\Behavior;
-use yii2module\article\domain\enums\ArticlePermissionEnum;
+use yii2bundle\article\domain\enums\ArticlePermissionEnum;
 
 
 /**

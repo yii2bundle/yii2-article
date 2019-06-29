@@ -1,15 +1,15 @@
 <?php
 
-namespace yii2module\article\domain;
+namespace yii2bundle\article\domain;
 
 use yii2rails\domain\enums\Driver;
 
 /**
  * Class Domain
  *
- * @package yii2module\article\domain
+ * @package yii2bundle\article\domain
  *
- * @property \yii2module\article\domain\services\ArticleService $article
+ * @property \yii2bundle\article\domain\services\ArticleService $article
  */
 class Domain extends \yii2rails\domain\Domain {
 	

@@ -1,13 +1,13 @@
 <?php
 
-namespace yii2module\article\domain\entities;
+namespace yii2bundle\article\domain\entities;
 
 use yii2rails\domain\BaseEntity;
 
 /**
  * Class ArticleEntity
  *
- * @package yii2module\article\domain\entities
+ * @package yii2bundle\article\domain\entities
  *
  * @property integer $id
  * @property string $name

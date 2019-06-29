@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\article\domain\fixtures;
+namespace yii2bundle\article\domain\fixtures;
 
 use yii\test\ActiveFixture;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\article\domain\repositories\filedb;
+namespace yii2bundle\article\domain\repositories\filedb;
 
 use yii2rails\domain\data\Query;
 use yii2rails\domain\BaseEntity;

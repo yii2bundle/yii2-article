@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\article\api;
+namespace yii2bundle\article\api;
 
 use yii\base\Module as YiiModule;
 
