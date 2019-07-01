@@ -17,10 +17,10 @@ $columns = [
 		'class' => TitleColumn::class,
 		'baseUrl' => $baseUrl,
 	],
-	[
+	/*[
 		'attribute' => 'name',
 		'label' => Yii::t('main', 'name'),
-	],
+	],*/
 	[
 		'class' => ActionColumn::class,
 	],

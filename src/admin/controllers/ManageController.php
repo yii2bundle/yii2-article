@@ -6,7 +6,7 @@ use yii2rails\domain\web\ActiveController as Controller;
 
 class ManageController extends Controller {
 
-	public $serviceName = 'article.article';
+	public $service = 'article.post';
 	public $formClass = 'yii2bundle\article\admin\forms\PostForm';
 
 	public function actions() {

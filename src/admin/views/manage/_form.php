@@ -14,8 +14,6 @@ use yii2mod\markdown\MarkdownEditor;
 
 <?= $form->field($model, 'title')->textInput(); ?>
 
-<?= $form->field($model, 'name')->textInput(); ?>
-
 <?= $form->field($model, 'content', ['template' => "{hint}\n{input}\n{error}"])->widget(MarkdownEditor::class, [
 	'editorOptions' => [
 		'showIcons' => ["code", "table"],
